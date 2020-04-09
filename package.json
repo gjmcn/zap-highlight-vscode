@@ -1,7 +1,7 @@
 {
     "name": "zap-highlight-vscode",
     "displayName": "Zap Highlight",
-    "description": "Syntax highlighting for the Zap language",
+    "description": "Zap language syntax highlighting for VS Code",
     "version": "0.1.0",
     "repository": {
         "type": "git",
