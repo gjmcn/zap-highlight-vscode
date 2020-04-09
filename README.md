@@ -1,2 +1,1 @@
-# zap-highlight-vscode
-VSCode syntax highlighting for the Zap language
+Zap language syntax highlighting for VSCode.

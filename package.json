@@ -1,0 +1,31 @@
+{
+    "name": "zap-highlight-vscode",
+    "displayName": "Zap Highlight",
+    "description": "Syntax highlighting for the Zap language",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gjmcn/zap-highlight-vscode.git"
+      },
+    "author": "Graham McNeill",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "zap",
+            "aliases": ["Zap", "zap"],
+            "extensions": [".za"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "zap",
+            "scopeName": "source.zap",
+            "path": "./syntaxes/zap.tmLanguage.json"
+        }]
+    }
+}
