@@ -76,7 +76,7 @@
 		"punctuation": {
 			"patterns": [{
 				"name": "punctuation.zap",
-				"match": "\\??[[{]|\\((?:[\\-=]>)?|[)}\\];,]|\\.{3}|>>"
+				"match": "\\??[\\[{]|\\((?:[\\-=]>)?|[)}\\];,]|\\.{3}|>>"
 			}]
 		},
 		"keywords-symbols": {
