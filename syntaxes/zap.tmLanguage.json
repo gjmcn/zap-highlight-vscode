@@ -10,8 +10,8 @@
 		{ "include": "#variables" },
 		{ "include": "#keywords-word" },
 		{ "include": "#identifiers" },
-		{ "include": "#punctuation" },
-		{ "include": "#keywords-symbols" }
+		{ "include": "#keywords-symbols" },
+		{ "include": "#punctuation" }
 	],
 	"repository": {
 		"comments": {
@@ -73,16 +73,16 @@
 				"match": "[a-zA-Z_$][\\w$]*"
 			}]
 		},
-		"punctuation": {
-			"patterns": [{
-				"name": "punctuation.zap",
-				"match": "[(){}\\[\\],]"
-			}]
-		},
 		"keywords-symbols": {
 			"patterns": [{
 				"name": "keyword.zap",
-				"match": "`?(?:[+\\-*/%\\^?\\\\=@#<>!]?=|\\\\:|[+\\-*/%\\^\\\\!~]|<\\\\|\\|\\||&&|<>?|><|>|@{1,2}|#{1,2}|\\?{1,2}|[?<]?::|[=?]?:)`?(?![+\\-*%<>=!?\\\\#@:\\|\\^`~]|\\/(?:$|[^/])|&&)"
+				"match": "`?(?:[+\\-*/%\\^?\\\\=@#<>!]?=|\\\\:|[+\\-*/%\\^\\\\!~]|<\\\\|\\|\\||&&|<>?|><|>|@{1,2}|#{1,2}|\\?{1,2}|[?<]?::|[=?]?:)`?(?![+\\-*%<>=!?\\\\#@:|\\^`~]|\\/(?:$|[^/])|&&)"
+			}]
+		},
+		"punctuation": {
+			"patterns": [{
+				"name": "punctuation.zap",
+				"match": "[(){}\\[\\]|]"
 			}]
 		}
 	},
