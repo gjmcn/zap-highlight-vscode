@@ -52,7 +52,7 @@
 		"constants": {
 			"patterns": [{
 				"name": "constant.language.zap",
-				"match": "(?:true|false|null|undefined|Infinity|NaN)(?![\\w$])"
+				"match": "(?:true|false|null|undefined|Infinity|NaN|else)(?![\\w$])"
 			}]
 		},
 		"variables": {
